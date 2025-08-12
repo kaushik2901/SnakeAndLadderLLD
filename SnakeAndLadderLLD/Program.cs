@@ -5,7 +5,7 @@ using SnakeAndLadderLLD.Game;
 
 var board = new BoardBuilder()
     .WithSize(10)
-    .WithSpecialBlock(new SpecialBlock(1, 37))
+    .WithSpecialBlock(new SpecialBlock(1, 38))
     .WithSpecialBlock(new SpecialBlock(3, 13))
     .WithSpecialBlock(new SpecialBlock(6, 16))
     .WithSpecialBlock(new SpecialBlock(8, 30))
